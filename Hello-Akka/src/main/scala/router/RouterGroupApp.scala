@@ -6,6 +6,9 @@ import akka.actor.{ActorSystem, Props}
 import router.actors.Worker.Job
 import router.actors.{RouterGroup, Worker}
 
+/**
+  * random group router with custom RouterGroup actor
+  */
 object RouterGroupApp extends App {
 
   val system = ActorSystem("Router")
