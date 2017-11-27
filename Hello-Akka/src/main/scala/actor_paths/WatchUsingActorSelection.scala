@@ -1,5 +1,6 @@
 package actor_paths
 
+import actor_paths.actors.{CounterActor, WatcherActor}
 import akka.actor.{ActorSystem, Props}
 
 /**

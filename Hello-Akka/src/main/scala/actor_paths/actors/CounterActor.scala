@@ -1,4 +1,4 @@
-package actor_paths
+package actor_paths.actors
 
 import akka.actor.Actor
 

@@ -1,5 +1,6 @@
 package actor_paths
 
+import actor_paths.actors.CounterActor
 import akka.actor.{ActorRef, ActorSelection, ActorSystem, InvalidActorNameException, PoisonPill, Props}
 
 /**
